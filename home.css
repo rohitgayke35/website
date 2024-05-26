@@ -1,0 +1,153 @@
+/* .footer {
+    background-color: rgb(14, 1, 14);
+    text-align: center;
+    padding: 10px;
+    height: 70px;
+}
+.footer span{
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+} */
+
+.navbar-brand{
+    font-size: x-large;
+    color: rgb(47, 81, 249);
+}
+.us {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: lightpink;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: white;
+}
+
+section p {
+    line-height: 1.6;
+    color: #666;
+}
+.marquee{
+    color: #0c0c0c;
+    background-color: rgb(244, 143, 11);
+    padding: 3px;
+    width: 1520px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.MIT{
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+}
+
+
+
+
+
+
+/* .background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(218, 41%, 35%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%);
+  }
+
+  #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  }
+
+  #radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  }
+
+  .bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+  } */
+
+
+
+
+
+
+
+
+/* .gradient-custom-2 { */
+    /* fallback for old browsers */
+    /* background: #fccb90; */
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593); */
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    } */
+    /* } */
+
+
+
+
+
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+        font-size: 1rem;
+        line-height: 2.15;
+        padding-left: .75em;
+        padding-right: .75em;
+        }
+        .card-registration .select-arrow {
+        top: 13px;
+        }

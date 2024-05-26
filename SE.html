@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Second Year</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="year.css">
+  <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-primary border-bottom border-body"
+    data-bs-theme="light">
+    <nav class="navbar" style="background-color: #e3f2fd;">
+      <!-- Navbar content -->
+    </nav>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="img.html" target="_blank">Welcome To MIT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html" target="_blank">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Content
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="FE.html" target="_blank">First Year</a></li>
+              <li><a class="dropdown-item" href="SE.html" target="_blank">Second Year</a></li>
+              <li><a class="dropdown-item" href="TE.html" target="_blank">Third Year</a></li>
+              <li><a class="dropdown-item" href="BE.html" target="_blank">Final Year</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page"
+              href="#" target="_blank">All
+              Previous Year Question Papers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="event.html" target="_blank">Events in MIT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html" target="_blank">Contact
+              Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html" target="_blank">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          &nbsp;&nbsp;&nbsp;
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1" onclick="Logout();" style="float: right;">Logout</button>
+          <!-- Button trigger modal -->
+          <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            Login
+          </button>
+          &nbsp;&nbsp;&nbsp; -->
+
+          <!-- Modal 1-->
+          <!-- <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel1">
+                    Login
+                  </h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"> -->
+
+                  <!-- login form -->
+                  <!-- <div class="mb-3 row">
+                    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="staticEmail" value="">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Login
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br>
+
+
+  <!-- <div class="container-fluid"> -->
+
+    <!-- cards -->
+    <!-- <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 20rem;">
+          <img src="images/tb.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><a href="#" class="btn btn-primary" style="text-decoration: none;">
+                Textbook</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" style="width: 20rem;">
+          <img src="images/lp1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><a href="#" class="btn btn-primary"
+                style="text-decoration: none;">Lab Manual</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 20rem;">
+          <img src="images/QP111.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><a href="#"
+                class="btn btn-primary" style="text-decoration: none;">Previous Year Question Paper</a></p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+    <div class="container">
+      <h1>Second Year</h1>
+    
+      <div class="year" onclick="toggleSemesters('year1')">NOTES</div>
+      <div class="year1-semester-content semester-content">
+        <div class="semester" onclick="toggleSubjects('year1-sem1-subjects')">Semester 1</div>
+        <div class="year1-sem1-subjects semester-content" style="display: none;">
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Data Structures and Algorithms</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Electronic Design Technology</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Linear Algebra & Transform</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Network Theory</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Programming In JAVA</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-I: Electronic Design Technology</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-II: Network Theory</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-III: Data Structures and Algorithms</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-IV: Programming In jAVA</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-V: Data Analytics</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Linear Algebra & Transform[TU]</a></div>
+
+        </div>
+        <div class="semester" onclick="toggleSubjects('year1-sem2-subjects')">Semester 2</div>
+        <div class="year1-sem2-subjects semester-content" style="display: none;">
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Communication Engineering</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Complex Variable & Vector Calculus</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Database Management System</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Digital Electronics and Microprocessor</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Stress Management Through Yoga</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Computer Organization and Architecture</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Computer Variable & Vector Calculus(TU)</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-I: Digital Electronis and Microprocessor-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-II: Database Management System-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-III: Communication Engineering-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-IV: Development of Skills(Soft Skills)-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-V: Problem-based learning-PR</a></div>
+        </div>
+      </div>
+    
+      <div class="year" onclick="toggleSemesters('year2')">BOOKS</div>
+      <div class="year2-semester-content semester-content">
+        <div class="semester" onclick="toggleSubjects('year2-sem1-subjects')">Semester 1</div>
+        <div class="year2-sem1-subjects semester-content" style="display: none;">
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Data Structures and Algorithms</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Electronic Design Technology</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Linear Algebra & Transform</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Network Theory</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Programming In JAVA</a></div>
+          <!--<div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-I: Electronic Design Technology</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-II: Network Theory</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-III: Data Structures and Algorithms</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-IV: Programming In jAVA</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-V: Data Analytics</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Linear Algebra & Transform[TU]</a></div>-->
+        </div>
+        <div class="semester" onclick="toggleSubjects('year2-sem2-subjects')">Semester 2</div>
+        <div class="year2-sem2-subjects semester-content" style="display: none;">
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Communication Engineering</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Complex Variable & Vector Calculus</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Database Management System</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Digital Electronics and Microprocessor</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Stress Management Through Yoga</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Computer Organization and Architecture</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Computer Variable & Vector Calculus(TU)</a></div>
+          <!--<div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-I: Digital Electronis and Microprocessor-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-II: Database Management System-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-III: Communication Engineering-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-IV: Development of Skills(Soft Skills)-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-V: Problem-based learning-PR</a></div>-->
+        </div>
+      </div>
+    
+      <div class="year" onclick="toggleSemesters('year3')">Questions Paper</div>
+      <div class="year3-semester-content semester-content">
+        <div class="semester" onclick="toggleSubjects('year3-sem1-subjects')">Semester 1</div>
+        <div class="year3-sem1-subjects semester-content" style="display: none;">
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Data Structures and Algorithms</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Electronic Design Technology</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Linear Algebra & Transform</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Network Theory</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Programming In JAVA</a></div>
+          <!--<div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-I: Electronic Design Technology</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-II: Network Theory</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-III: Data Structures and Algorithms</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-IV: Programming In jAVA</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-V: Data Analytics</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Linear Algebra & Transform[TU]</a></div>-->
+        </div>
+        <div class="semester" onclick="toggleSubjects('year3-sem2-subjects')">Semester 2</div>
+        <div class="year3-sem2-subjects semester-content" style="display: none;">
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Communication Engineering</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Complex Variable & Vector Calculus</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Database Management System</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Digital Electronics and Microprocessor</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Stress Management Through Yoga</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Computer Organization and Architecture</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Computer Variable & Vector Calculus(TU)</a></div>
+          <!-- <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-I: Digital Electronis and Microprocessor-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-II: Database Management System-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-III: Communication Engineering-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-IV: Development of Skills(Soft Skills)-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-V: Problem-based learning-PR</a></div> -->
+        </div>
+      </div>
+
+      <div class="year" onclick="toggleSemesters('year4')">Video References</div>
+      <div class="year4-semester-content semester-content">
+        <div class="semester" onclick="toggleSubjects('year4-sem1-subjects')">Semester 1</div>
+        <div class="year4-sem1-subjects semester-content" style="display: none;">
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Data Structures and Algorithms</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Electronic Design Technology</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Linear Algebra & Transform</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Network Theory</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Programming In JAVA</a></div>
+          <!-- <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-I: Electronic Design Technology</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-II: Network Theory</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-III: Data Structures and Algorithms</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-IV: Programming In jAVA</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-V: Data Analytics</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Linear Algebra & Transform[TU]</a></div> -->
+        </div>
+        <div class="semester" onclick="toggleSubjects('year4-sem2-subjects')">Semester 2</div>
+        <div class="year4-sem2-subjects semester-content" style="display: none;">
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Communication Engineering</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Complex Variable & Vector Calculus</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Database Management System</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Digital Electronics and Microprocessor</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Stress Management Through Yoga</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Computer Organization and Architecture</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Computer Variable & Vector Calculus(TU)</a></div>
+          <!-- <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-I: Digital Electronis and Microprocessor-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-II: Database Management System-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-III: Communication Engineering-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-IV: Development of Skills(Soft Skills)-PR</a></div>
+          <div class="subject"><a href="#" style="text-decoration: none; color: black;">Lab-V: Problem-based learning-PR</a></div> -->
+        </div>
+      </div>
+
+    </div>
+
+
+    <br>
+    <!-- <div class="footer">
+        <span>@Design by Rohit Gayke | 2024</span><br>
+        <a href="mailto:rohitgayke2005@gmail.com" target="_blank">
+          <p id="email">rohitgayke2005@gmail.com</p>
+        </a>
+    </div> -->
+    <div class="footer">
+      <div>
+        <div class="footer-data">
+          <div class="contact-details">
+            <h1>Contact Us</h1>
+            <p>MIT</p>
+            <p>Engineering</p>
+  
+            <p>Satara Parisar,</p>
+            <p>Sambhajinagar 431010</p>
+            <p>Maharashtra</p>
+            <p>India</p>
+            <p><b>Tel: </b>(0240) 2375171/181/191</p>
+          </div>
+  
+          <div class="admission-details">
+            <h1>Admission Cell</h1>
+            <p><b>Contact Person: </b>Admission Cell</p>
+            <p><b>Contact Number: </b> 9356097267</p>
+            <b>Email: </b>
+            <a href="mailto:info@mit.asia" target="_blank"style="text-decoration: none;">info@mit.asia</a>
+            <p><b>Official Website: </b><a href="https://engg.mit.asia/"style="text-decoration: none;">https://engg.mit.asia/</a></p>
+           </div>
+  
+            <div class="placement-details">
+              <h1>Placement Cell</h1>
+            <p><b>Contact Person: </b>Prof. Sunil R. Andhale</p>
+            <p><b>Contact Number: </b> 9370201888</p>
+            <b>Email: </b>
+            <a href="mailto:tpo.mite@mit.asia" target="_blank" style="text-decoration: none;">tpo.mite@mit.asia</a>
+            </div>
+  
+          <div class="usefull-links">
+            <h1>Usefull Links</h1>
+            <a href="https://www.mit.asia/alumni/">MIT Alumni</a>
+            <a href="https://engg.mit.asia/magazine">MIT Magazine</a>
+            <a href="https://mit.asia/mit-redhatcenter.php">MIT Red Hat Academy</a>
+            <a href="https://engg.mit.asia/aws">AWS</a>
+            <a href="https://www.aicte-india.org/">AICTE</a>
+            <a href="https://nptel.ac.in/localchapter/statistics/1136">NPTEL</a>
+          </div>
+          <div class="librarian-details">
+            <h1>Librarian</h1>
+            <p>Name</p>
+            <p>Education</p>
+            <p>Contact: +91 ..........</p>
+          </div>
+        </div>
+  
+      </div>
+      <div class="copyright-details">
+        <p class="footer-copyright">&#169; 2024 copyright all right reserved<br /><span>Designed by TechStars❤️
+          </span></p>
+      </div>
+    </div>
+</body>
+
+
+<script>
+  function toggleSemesters(year) {
+    var semesters = document.querySelectorAll('.' + year + '-semester-content');
+    semesters.forEach(function(semester) {
+      semester.style.display = semester.style.display === 'none' ? 'block' : 'none';
+    });
+  }
+  function toggleSubjects(semester) {
+      var subjects = document.querySelectorAll('.' + semester);
+      subjects.forEach(function(subject) {
+        subject.style.display = subject.style.display === 'none' ? 'block' : 'none';
+      });
+    }
+</script>
+
+
+<script>
+  let name=localStorage.getItem('name')?localStorage.getItem('name'):''
+        console.log(name);
+        if(name=='')
+        {
+          alert('U need to login first');
+          window.location.href="login.html";
+        }
+        function Logout()
+        {
+          localStorage.removeItem('name');
+          localStorage.removeItem('email');
+          window.location.href="login.html";
+        }
+</script>
+</html>

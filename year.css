@@ -1,0 +1,53 @@
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #eaf2f3;
+      color: #333;
+    }
+  
+    /* Container for year and semester */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #12c9ee;
+      background-color:#4881ec;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+    /* Style for year and semester headings */
+    .year, .semester {
+      cursor: pointer;
+      margin-bottom: 5px;
+      padding: 10px;
+      background-color: #b6e623;
+      background-color: #b1ee18;
+      border: 1px solid ;
+      border-radius: 5px;
+    }
+  
+    /* Style for semester contents */
+    .semester-content {
+      display: none;
+      padding: 10px;
+      margin-left: 10px;
+      background-color: #17be33;
+      border-left: 2px solid ;
+    }
+  
+    /* Style for content within semester */
+    .semester-content p {
+      margin: 0;
+    }
+  
+    /* Style for subjects */
+    .subject {
+      margin-bottom: 5px;
+      padding: 5px;
+      background-color: #12c9ee;
+      border: 1px solid #0bd1eb;
+      border-radius: 5px;
+    }
